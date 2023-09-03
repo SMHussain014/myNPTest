@@ -1,0 +1,32 @@
+{
+  "name": "mynewproject",
+  "version": "1.0.0",
+  "description": "How to publish a project on npm",
+  "main": "public/index.js",
+  "types": "public/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMHussain014/myNPTest.git"
+  },
+  "keywords": [
+    "colorful",
+    "log",
+    "stylish",
+    "log"
+  ],
+  "author": "Syed Muhammad Hussain <hussain.sm014@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SMHussain014/myNPTest/issues"
+  },
+  "homepage": "https://github.com/SMHussain014/myNPTest#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": ["public/**/*"]
+}
